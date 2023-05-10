@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: CallHome
+  description: API Definition of CallHome
+  version: '1.0'
+servers:
+- url: http://localhost:8290/call
+paths:
+  /home:
+    get:
+      responses:
+        default:
+          description: Default response
